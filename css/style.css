@@ -5,25 +5,11 @@ html{
 body{
   font-family: 'Cardo', serif;
   font-size: 16px;
-  background-color: #ABABA6;
+  background-color: #FBFBFB;
 }
 
 /*Estilos header*/
-header img{
-  width: 110px;
-  height: 100px;
-}
-header nav ul{
-  list-style: none;
-}
-header nav a{
-  text-decoration: none;
-  font-size: 18px;
-  color: black;
-}
-header nav a:hover{
-  color: #ffff;
-}
+
 .contenido_index h1, .contenido_servicios h1, .contenido_ubicacion h1, .contenido_contacto h1, .contenido_galeria h1{
   font-size: 40px;
   text-align: center;
@@ -69,15 +55,30 @@ header nav a:hover{
 }
 
 /*Estilos footer*/
+
+footer{
+  padding: 20px;
+  background-color: #34495E;
+  color: #E8F6FF;
+}
+
+.botoncito{
+  margin-right: 10px;
+  font-size: 18px;
+}
+
 footer h2{
   font-family: 'Great Vibes', cursive;
-  font-size: 40px;
+  font-size: 45px;
+  text-align: center;
 }
 footer h3{
-  font-size: 18px;
+  font-size: 25px;
+  text-align: center;
 }
 footer p{
   font-size: 15px;
+  text-align: center;
 }
 footer svg{
   width: 20px;
@@ -89,4 +90,60 @@ footer svg{
   height: 500px;
   margin-left: 80px;
   padding: 10px;
+}
+
+/*Boostrap*/
+.nav-mia img{
+  max-width: 40%;
+  margin-left: 20px;
+}
+
+.navegacion-mia li{
+  font-size: 23px;
+  padding: 15px;
+  margin-right: 20px;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.navegacion-mia a{
+  color: #E8F6FF;
+}
+
+.navegacion-mia a:hover{
+  color: #B5E2FF;
+}
+
+
+.navbar-general {
+  background-color: #34495E;
+  margin-bottom: 50px;
+}
+
+.botonav-mio{
+  font-size: 30px;
+  margin-right: 20px;
+  color: #E8F6FF;
+}
+
+.icono-desplegable{
+  color: #E8F6FF;
+}
+
+@media (max-width: 408px) {
+  .navbar-toggler {
+    position: absolute;
+    top: 50px;
+    right: 0;
+  }
+}
+
+  @media screen and (max-width: 576px){
+    footer {
+      text-align: center;
+    }
+}
+
+/*Carrousel pagina INICIO*/
+.carrusel-mio img{
+  padding: 20px;
 }
