@@ -111,6 +111,10 @@ footer p{
   padding: 10px;
 }
 
+.contenido_galeria{
+  padding: 20px;
+}
+
 /*Boostrap*/
 .nav-mia img{
   max-width: 30%;
