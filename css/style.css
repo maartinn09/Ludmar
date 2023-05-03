@@ -23,6 +23,9 @@ body{
   font-size: 20px;
   text-align: center;
 }
+.contenido_index{
+  padding: 20px;
+}
 
 /*Estilos ubicacion*/
 .iframecontenido{
@@ -176,5 +179,6 @@ footer p{
 /*Carrousel pagina INICIO*/
 .carrusel-mio img{
   padding: 20px;
+  height: 600px;
 }
 
