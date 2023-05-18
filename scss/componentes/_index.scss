@@ -1,0 +1,276 @@
+/* Estilos generales */
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+  
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: $color1;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+  
+/* Estilos ubicacion */
+  
+.imagenpotrero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+}
+  
+.listaubicacion ul {
+    font-size: 20px;
+    text-align: start;
+    color: $color3;
+    padding-top: 20px;
+    list-style: none;
+}
+  
+.listaubicacion li {
+    padding-bottom: 20px;
+}
+  
+.iframecontenido {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 0px;
+}
+  
+.iframecontenido iframe {
+    display: block;
+    max-width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+    padding: 10px 30px 0px 30px;
+}
+  
+/* Estilo general de contenidos */
+  
+.contenido_servicios, .contenido_ubicacion {
+    h1 {
+      padding: 30px 10px 10px 10px;
+    }
+}
+  
+.contenido_contacto {
+    i, p {
+      font-size: 25px;
+    }
+  
+    h1, p {
+      padding: 20px;
+    }
+}
+  
+/* Estilos galeria de imagenes */
+  
+.galeria {
+    img {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      padding: 10px 0;
+    }
+}
+  
+.contenido_galeria {
+    padding: 20px;
+}
+  
+/* Estilo de Contacto */
+  
+.imagen-contacto {
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+  
+/* Boostrap NavBar */
+  
+.nav-mia {
+    img {
+      max-width: 30%;
+      margin-left: 20px;
+    }
+}
+  
+.navegacion-mia {
+    li {
+      font-size: 25px;
+      padding: 15px;
+      margin-right: 20px;
+      font-family: 'Macondo', cursive;
+    }
+  
+    a {
+      color: $color7;
+    }
+}
+  
+.mi-header {
+    position: relative;
+    height: 100vh;
+}
+  
+.imgnav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+  
+.imgnav {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(80%) contrast(60%);
+    }
+}
+  
+.nav-mia {
+    img {
+      transition: transform 0.8s ease;
+  
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+}
+  
+.navegacion-mia {
+    a {
+      position: relative;
+  
+      &:hover {
+        color: $color7;
+      }
+  
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 2.5px;
+        background-color: $color7;
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+      }
+    }
+}
+  
+.navegacion-mia {
+    a {
+      position: relative;
+  
+      &:hover {
+        color: $color7;
+  
+        &::after {
+          transform: scaleX(0.7);
+        }
+      }
+  
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 2.5px;
+        background-color: $color7;
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+      }
+    }
+}
+  
+.botonav-mio {
+    font-size: 30px;
+    margin-right: 20px;
+    color: $color6;
+}
+  
+.icono-desplegable {
+    color: $color6;
+}
+  
+@media (max-width: 408px) {
+    .navbar-toggler {
+      position: absolute;
+      top: 50px;
+      right: 0;
+    }
+}
+  
+@media screen and (max-width: 576px) {
+    footer {
+      text-align: center;
+    }
+}
+  
+.cajaprincipal {
+    overflow-x: hidden;
+}
+  
+.carrusel-mio img {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+  
+.imagen-fondo {
+    background-image: url('/img/otrofrente.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-attachment: fixed;
+}
+  
+.contenido {
+    padding-top: 5vh;
+}
+  
+.cajaquienes {
+    background-color: $color7;
+    margin: 0px 50px 0px 50px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+  
+.logogrande {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    img {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      width: 300px;
+      height: auto;
+    }
+}
+
+.mapa-responsive {
+    position: relative;
+    width: 100%;
+    padding-top: 30%;
+  
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+}

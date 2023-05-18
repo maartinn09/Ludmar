@@ -4,62 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ludmar</title>
+    <title>Ubicación</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" defer>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin defer>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cinzel:wght@600&family=Cardo&family=Yantramanav:wght@900&family=Darumadrop+One&display=swap" rel="stylesheet" defer>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Macondo&family=Montserrat&display=swap" rel="stylesheet" defer>
 
     <script src="https://kit.fontawesome.com/afd307b449.js" crossorigin="anonymous"></script>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../scss/style.css">
 </head>
 <body>
-  <header>
+  <header class="mi-header">
     <nav class="navbar navbar-expand-lg navbar-general">
-        <div class="container-fluid">
-          <a class="navbar-brand nav-mia" href="../index.html">
-            <img src="../img/icono.png" alt="">
-          </a>
-          <button class="navbar-toggler botonav-mio" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars icono-desplegable"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto navegacion-mia text-center">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/galeria.html">Galería</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/ubicacion.html">Ubicación</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-              </li>
-            </ul>
+      <div class="container-fluid">
+        <a class="navbar-brand nav-mia" href="../index.html">
+          <img src="../img/icono.png" alt="Icono de cabañas">
+        </a>
+        <button class="navbar-toggler botonav-mio" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars icono-desplegable"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto navegacion-mia text-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/ubicacion.html">Ubicación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="imgnav">
+      <img src="/img/_A744197-Editar.jpg" alt="Vista panorámica de las cabañas rodeadas de naturaleza" class="img-fluid">
+    </div>
+  </header>
+
+<main class="cajaprincipal">
+  <section class="contenido_ubicacion">
+      <h1 data-aos="fade-up" data-aos-duration="1000">Ubicación</h1>
+      <div data-aos="flip-down" data-aos-duration="1000">
+      <p>Cómo llegar</p>
+      <p>Situadas en Las Violetas 98, <br>Potrero de Los Funes, San Luis, Argentina. <br>Unos de los lugares más hermosos de San Luis, equipado con todo el confort.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iframecontenido">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13350.494531087184!2d-66.2269561!3d-33.2239619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d4156642d38a3b%3A0xb685ba9a014ddc39!2sCaba%C3%B1as%20Ludmar!5e0!3m2!1ses!2sar!4v1680733583583!5m2!1ses!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
         </div>
-      </nav>
-</header>
+      </div>
+                  
+    <h1 data-aos="fade-up" data-aos-duration="1000">Descubre la belleza de Potrero de Los Funes</h1>
+    <div data-aos="flip-down" data-aos-duration="1000">
+      <p>Potrero de Los Funes es un destino turístico destacado en la provincia de San Luis. Además de disfrutar de nuestras cabañas, podrás explorar diversas atracciones y actividades en los alrededores, como:</p>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="imagenpotrero">
+          <img src="../img/circuitopotrero.jpg" alt="Impresionante vista del Lago Potrero de los Funes rodeado de montañas en San Luis" class="img-fluid">
+        </div>
+        <div class="listaubicacion d-flex justify-content-center align-items-center" data-aos="flip-down" data-aos-duration="3000">
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Recorridos en bicicleta por los senderos naturales</li>
+            <li><i class="fa-solid fa-check"></i> Paseos en bote por el Lago Potrero de Los Funes</li>
+            <li><i class="fa-solid fa-check"></i> Excursiones a las sierras de los alrededores</li>
+            <li><i class="fa-solid fa-check"></i> Visitas a la Reserva Natural de la Quebrada de los Cóndores</li>
+            <li><i class="fa-solid fa-check"></i> Avistamiento de aves y fauna autóctona</li>
+            <li><i class="fa-solid fa-check"></i> Práctica de deportes acuáticos como kayak y paddle surf</li>
+          </ul>
+        </div>
+      </div>
+    </div>       
+    <p data-aos="flip-down" data-aos-duration="1000">¡Sumérgete en la belleza natural de la zona y disfruta de una estadía inolvidable en Cabañas Ludmar! </p>
+    <br>
+</section>
+</main>
 
-    <main class="cajaprincipal">
-        <section class="contenido_ubicacion">
-            <h1>UBICACIÓN</h1>
-            <p>Cómo llegar</p>
-            <p>Situadas en Las Violetas 98, <br>Potrero de Los Funes, San Luis, Argentina. <br>Unos de los lugares más hermosos de San Luis, equipado con todo el confort.</p>
-            <div class="iframecontenido">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13350.494531087184!2d-66.2269561!3d-33.2239619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d4156642d38a3b%3A0xb685ba9a014ddc39!2sCaba%C3%B1as%20Ludmar!5e0!3m2!1ses!2sar!4v1680733583583!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            
-        </section>
-    </main>
+
     
     
     <footer>
@@ -86,6 +125,10 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

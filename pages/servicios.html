@@ -4,78 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ludmar</title>
+    <title>Servicios</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" defer>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin defer>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cinzel:wght@600&family=Cardo&family=Yantramanav:wght@900&family=Darumadrop+One&display=swap" rel="stylesheet" defer>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Macondo&family=Montserrat&display=swap" rel="stylesheet" defer>
 
     <script src="https://kit.fontawesome.com/afd307b449.js" crossorigin="anonymous"></script>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../scss/style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-general">
-            <div class="container-fluid">
-              <a class="navbar-brand nav-mia" href="../index.html">
-                <img src="../img/icono.png" alt="">
-              </a>
-              <button class="navbar-toggler botonav-mio" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fa-solid fa-bars icono-desplegable"></i>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto navegacion-mia text-center">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/galeria.html">Galería</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/ubicacion.html">Ubicación</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
+  <header class="mi-header">
+    <nav class="navbar navbar-expand-lg navbar-general">
+      <div class="container-fluid">
+        <a class="navbar-brand nav-mia" href="../index.html">
+          <img src="../img/icono.png" alt="Icono de cabañas" >
+        </a>
+        <button class="navbar-toggler botonav-mio" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars icono-desplegable"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto navegacion-mia text-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/ubicacion.html">Ubicación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="imgnav">
+      <img src="/img/_A744197-Editar.jpg" alt="Vista panorámica de las cabañas rodeadas de naturaleza" class="img-fluid">
+    </div>
+  </header>
 
-    <main class="cajaprincipal">
-        <section class="contenido_servicios">
-            <h1>SERVICIOS</h1>
-            <p>Contamos con cabañas totalmente equipadas. Queremos darles la bienvenida a la tranquilidad, <br> nos encontramos en un entorno sereno y amable. <br> Abierto todo el año.</p>
-        </section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-xl-6 video-servicios">
-                    <video class="img-fluid d-block" loop autoplay controls>
-                        <source src="../videos/LUDMAR.mp4" type="video/mp4">
-                        Tu navegador no soporta videos HTML5.
-                      </video>
-                </div>
-                <div class="col-sm-12 col-md-12 col-xl-6 lista_servicios">
-                        <p><i class="fa-solid fa-check"></i>Heladera con Freezer.</p>
-                        <p><i class="fa-solid fa-check"></i>Cocina totalmente equipada.</p>
-                        <p><i class="fa-solid fa-check"></i>Televisor Smart Tv.</p>
-                        <p><i class="fa-solid fa-check"></i>Microondas.</p>
-                        <p><i class="fa-solid fa-check"></i>Ropa Blanca.</p>
-                        <p><i class="fa-solid fa-check"></i>Piscinas.</p>
-                        <p><i class="fa-solid fa-check"></i>Parrillas.</p>
-                        <p><i class="fa-solid fa-check"></i>Quincho.</p>
-                        <p><i class="fa-solid fa-check"></i>Cocheras Individuales.</p>
-                </div>
+  <main class="cajaprincipal">
+    <section class="contenido_servicios" data-aos="fade-up" data-aos-duration="1000">
+        <h1>Servicios</h1>
+        <p data-aos="flip-down" data-aos-duration="1000">Contamos con cabañas totalmente equipadas. Queremos darles la bienvenida a la tranquilidad,<br>nos encontramos en un entorno sereno y amable.<br>Abierto todo el año.</p>
+    </section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 video-servicios">
+                <video class="img-fluid d-block" loop autoplay muted controls>
+                    <source src="../videos/LUDMAR.mp4" type="video/mp4">
+                    Tu navegador no soporta videos HTML5.
+                </video>
+            </div>
+            <div class="col-lg-6 lista_servicios" data-aos="flip-down" data-aos-duration="3000">
+                <p><i class="fa-solid fa-check"></i>Heladera con Freezer.</p>
+                <p><i class="fa-solid fa-check"></i>Cocina totalmente equipada.</p>
+                <p><i class="fa-solid fa-check"></i>Aire Acondicionado Frío/Calor.</p>
+                <p><i class="fa-solid fa-check"></i>Televisor Smart TV.</p>
+                <p><i class="fa-solid fa-check"></i>Microondas.</p>
+                <p><i class="fa-solid fa-check"></i>Ropa Blanca.</p>
+                <p><i class="fa-solid fa-check"></i>Piscinas.</p>
+                <p><i class="fa-solid fa-check"></i>Parrillas.</p>
+                <p><i class="fa-solid fa-check"></i>Quincho.</p>
+                <p><i class="fa-solid fa-check"></i>Cocheras Individuales.</p>
             </div>
         </div>
-    </main>
+    </div>
+</main>
+
 
             
     
@@ -103,6 +110,11 @@
         </div>
     </footer>
 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

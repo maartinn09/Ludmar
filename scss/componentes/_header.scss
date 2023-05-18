@@ -1,0 +1,38 @@
+/* Estilos header */
+
+.contenido_index h1, .contenido_servicios h1, .contenido_ubicacion h1, .contenido_contacto h1, .contenido_galeria h1 {
+    @extend %titulo;
+}
+  
+.contenido_index h2 {
+    @extend %subtitulo;
+}
+  
+.contenido_index p, .contenido_servicios p, .contenido_ubicacion p, .contenido_contacto p, .contenido_galeria p {
+    @extend %parrafo;
+}
+  
+h1::after {
+    content: "";
+    display: block;
+    width: 45px;
+    border-bottom: 2px solid $color4;
+    margin: 19px auto 24px;
+    z-index: 1;
+    position: relative;
+}
+  
+.decorationp p {
+    text-align: left;
+    padding: 10px;
+}
+  
+.decorationp {
+    text-align: center;
+}
+  
+.imagen-ajustada {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 60px;
+}
