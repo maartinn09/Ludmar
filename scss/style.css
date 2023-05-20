@@ -188,7 +188,7 @@ body {
 }
 
 .imagen-fondo {
-  background-image: url("/img/otrofrente.jpg");
+  background-image: url("../img/otrofrente.jpg");
   background-size: cover;
   background-position: center;
   height: 80vh;
